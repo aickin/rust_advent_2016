@@ -131,15 +131,5 @@ pub fn puzzle2() -> i32 {
       }
     }
   }
-//  for i in (Range {start: 0, end: positions.len()}) {
-//    for j in (Range {start: 0, end: i}) {
-//      let foo : String = i;
-//      let iPos : &Position = positions[1];
-//      if (*positions.get(i).unwrap()).is_same_point(positions.get(j).unwrap()) {
-//        answer = positions.get(i).unwrap();
-//      }
-//    }
-//  }
-//  (Position { x: 0, y: 0, direction: CardinalDirection:: North }).grid_distance(&answer)
-0
+  panic!("Could not find any locations that were visited twice.");
 }
